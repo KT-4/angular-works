@@ -1,0 +1,92 @@
+    <!-- Angular Cource Practise  
+  
+<!-- 1) InterPloation Databinding -->
+
+<!-- <p>Data Bind Works: {{dyName}}</p>
+
+<br><br>
+{{5+5}}
+
+
+<br><br>
+{{"Welcome" + dyName}}
+
+
+<br><br>
+
+{{dyName.length}} -->
+
+
+<!-- Use Javascript inbuild Method -->
+<!-- <br><br>
+
+{{dyName.toUpperCase()}}
+
+<br><br> -->
+
+<!-- Method InterPloation -->
+
+<!-- {{myMethod()}}
+
+<br><br>
+
+My App Status is {{appStatus?"Online":"Offline"}} -->
+
+<!----------------------- INTERPOLATION CODE END -------------------- -->
+
+
+
+      <!-- -------PROPERTY BINDING CODE START--------- -->
+
+<!-- 
+       <input type="text"  name="" id="" [value]="appStatus? Status1 : Status2">
+       <br><br>
+
+       
+       <input type="text"  [hidden]="enable" name="" id="" bind-value="dyName">
+       <br><br> -->
+
+
+ <!-- **************  -------PROPERTY BINDING CODE END---------************ -->
+
+
+<!-- ***********************   STYLE BINDING && CLASS BINDING  ***********  -->
+
+  <!-- <div class="box" [class.myclass]="myproperty">
+    class binding
+  </div> -->
+
+<!-- 
+  <div class="box" [style.margin]="isActive? myStyle : '5px'">
+    class binding
+  </div>  -->
+
+<!--   
+  <div class="box" [ngClass]="mltcls">
+    class binding
+  </div>  -->
+
+    
+<!--  
+  <div class="box" [ngStyle]="{
+    'background':'red';
+    'border':'10px solid red'
+  }">
+    class binding
+  </div>  -->
+
+  
+
+
+<!-- ***********************   STYLE BINDING && CLASS BINDING END ***********  -->
+
+
+
+
+<!-------------------------- EVENTBINDING START------------------------ -->
+  
+  <button (click)="AddCart()">Add to cart</button>
+  <p>{{message}}</p>
+
+<!-------------------------- EVENTBINDING START END------------------------ -->
+
